@@ -1,24 +1,36 @@
+@font-face {
+    font-family: Futura;
+    src: url(fonts/futura_n4.df36ce3d9db534a4d7947f4aa825495ed740e410.ttf);
+}
+
 header {
     display: flex;
     justify-content: space-between;
     margin: 50px;
+
 }
 .logo {
     justify-content: center;
 }
 a {
     text-decoration: none;
-    
+    font-family: "Futura", sans-serif;
     font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
     color: hsl(176.67deg 44.26% 52.16%);
+    line-height: 20px;
     margin: 20px;
+    
 }
 .links2 {
     color: hsl(176.67deg 44.26% 52.16%);
     justify-content: center;
+
 }
 
 body {
     font-family: "Futura", sans-serif;
     font-style: normal;
 }
+
