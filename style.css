@@ -1,3 +1,24 @@
 header {
-    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+.logo {
+    justify-content: center;
+}
+a {
+    text-decoration: none;
+    
+    font-style: normal;
+    color: hsl(176.67deg 44.26% 52.16%);
+    margin: 20px;
+}
+.links2 {
+    color: hsl(176.67deg 44.26% 52.16%);
+    justify-content: center;
+}
+
+body {
+    font-family: "Futura", sans-serif;
+    font-style: normal;
 }
